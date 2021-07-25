@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="dom.css">
+
+    <title>shopping-cart</title>
+</head>
+
+<body>
+
+    <div class="container " id="cont">
+        <div class="row header">
+            <h5 class='col-1 ' style="text-align: start ; "> image</h5>
+            <h5 class='col-4 ' style="text-align: center; ">title</h5>
+            <h5 class='col-2'>price</h5>
+            <h5 class='col-2'>quantity</h5>
+        </div>
+        <div class="row shop-items ">
+            <img src="https://i.ytimg.com/vi/raM7AyV8U7A/maxresdefault.jpg " height=100 width=150 class=" shop-item-image " alt="... ">
+
+
+            <h6 class="card-title shop-item-title ">sheep-1</h6>
+            <p class="card-text shop-item-price ">$150</p>
+            <button class="btn-mins " type="button ">-</button>
+            <input class="cart-quantity-input " type="number " value="0 ">
+            <button class="btn btn-plus " type="button ">+</button>
+            <i class="fa fa-heart "></i>
+
+            <button class="btn btn-danger " type="button ">REMOVE</button>
+
+        </div>
+
+        <div class="row shop-items ">
+            <img src="https://img-31.ccm2.net/vNP0-6HCfXhQKyV28fvlPE_qHfQ=/1240x/smart/f65c2bd5e8a24f7c9131e69e1a365e14/ccmcms-hugo/10786383.jpg " height=100 class=" shop-item-image " alt="... ">
+
+            <h6 class="card-title shop-item-title ">sheep-2</h6>
+            <p class="card-text shop-item-price ">$300</p>
+            <button class="btn-mins " type="button ">-</button>
+            <input class="cart-quantity-input " type="number " value="0 ">
+            <button class="btn btn-plus " type="button ">+</button>
+            <i class="fa fa-heart "></i>
+
+            <button class="btn btn-danger " type="button ">REMOVE</button>
+        </div>
+
+        <div class="row shop-items ">
+            <img src="https://agronomie.info/fr/wp-content/uploads/2019/09/Sans-titre-2-3.jpg " height=100 width=150 class=" shop-item-image " alt="... ">
+
+            <h6 class="card-title shop-item-title ">sheep-3</h6>
+            <p class="card-text shop-item-price ">$500</p>
+            <button class="btn-mins " type="button ">-</button>
+            <input class="cart-quantity-input " type="number " value="0 ">
+            <button class="btn btn-plus " type="button ">+</button>
+            <i class="fa fa-heart "></i>
+
+            <button class="btn btn-danger " type="button ">REMOVE</button>
+        </div>
+
+        <div class="row total ">
+            <h5> total:$ </h5>
+            <h5 id="totalprice"></h5>
+        </div>
+
+
+
+        <script src="dom.js" async></script>
+</body>
+
+</html>
